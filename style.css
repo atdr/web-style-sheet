@@ -1,0 +1,10 @@
+@media (prefers-color-scheme: dark) {
+	
+	/* trying to be inspired by https://www.mediawiki.org/wiki/Extension:DarkMode	 */
+	body.mediawiki, #mw-panel, .mw-footer {
+		filter: invert() hue-rotate(180deg) !important;
+	}
+	
+	/* @document is just a Firefox thing for now https://developer.mozilla.org/en-US/docs/Web/CSS/@document
+	@document domain("wikipedia.org") {	} */
+}
