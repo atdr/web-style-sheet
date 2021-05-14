@@ -1,7 +1,10 @@
 @media (prefers-color-scheme: dark) {
 	
-	/* trying to be inspired by https://www.mediawiki.org/wiki/Extension:DarkMode	 */
-	body.mediawiki, #mw-panel, .mw-footer {
+	/* trying to be inspired by https://www.mediawiki.org/wiki/Extension:DarkMode */
+	body.mediawiki, #mw-panel, .mw-footer,
+	/* Blackboard original experience */
+	body#learn-oe-body, div#globalNavPageNavArea, nav#navigationPane
+	{
 		filter: invert() hue-rotate(180deg) !important;
 	}
 	
